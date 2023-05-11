@@ -33,3 +33,11 @@ variable "zone" {
 variable "boot_disk_image" {
   type = string
 }
+
+variable "instance_count" {
+  type = number
+}
+
+variable "metadata" {
+  type = map(string)
+}

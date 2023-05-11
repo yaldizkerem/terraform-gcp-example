@@ -13,3 +13,7 @@ variable "machine_type" {
 variable "boot_disk_image" {
   type = string
 }
+
+variable "metadata" {
+  type = map(string)
+}

@@ -41,3 +41,7 @@ variable "instance_count" {
 variable "metadata" {
   type = map(string)
 }
+
+variable "ssh_allowed_source_ranges" {
+  type = set(string)
+}

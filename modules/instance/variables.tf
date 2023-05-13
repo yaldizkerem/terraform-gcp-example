@@ -1,8 +1,8 @@
-variable "subnetwork_id" {
+variable "name_prefix" {
   type = string
 }
 
-variable "instance_name" {
+variable "subnetwork_id" {
   type = string
 }
 

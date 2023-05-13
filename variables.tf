@@ -1,4 +1,4 @@
-variable "network_name" {
+variable "name_prefix" {
   type = string
 }
 
@@ -10,15 +10,7 @@ variable "region" {
   type = string
 }
 
-variable "subnetwork_name" {
-  type = string
-}
-
 variable "ip_cidr_range" {
-  type = string
-}
-
-variable "instance_name" {
   type = string
 }
 

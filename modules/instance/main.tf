@@ -1,5 +1,5 @@
 resource "google_compute_instance" "instance" {
-  name         = var.instance_name
+  name         = var.name_prefix
   machine_type = var.machine_type
 
   boot_disk {

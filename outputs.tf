@@ -1,3 +1,3 @@
 output "instance_ips" {
-  value = module.instance.*.ip
+  value = { for instance in module.instances : instance.name => instance.ip }
 }

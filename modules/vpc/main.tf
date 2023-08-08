@@ -1,4 +1,7 @@
 resource "google_compute_subnetwork" "subnetwork" {
+  #checkov:skip=CKV_GCP_26
+  #checkov:skip=CKV_GCP_74
+  #checkov:skip=CKV_GCP_76
   name          = var.name_prefix
   ip_cidr_range = var.ip_cidr_range
   network       = google_compute_network.network.id

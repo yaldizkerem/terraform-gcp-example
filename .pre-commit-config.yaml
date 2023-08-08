@@ -9,3 +9,4 @@ repos:
       - id: terrascan
         args:
           - --args=--non-recursive
+      - id: terraform_tflint

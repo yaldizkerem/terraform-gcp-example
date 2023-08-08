@@ -6,3 +6,6 @@ repos:
         args:
           - --args=--config=.terraform-docs.yml
       - id: terraform_checkov
+      - id: terrascan
+        args:
+          - --args=--non-recursive

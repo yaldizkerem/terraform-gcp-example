@@ -10,3 +10,6 @@ repos:
         args:
           - --args=--non-recursive
       - id: terraform_tflint
+      - id: terraform_validate
+        args:
+          - --init-args=-backend=false
